@@ -1,0 +1,10 @@
+C:\Users\Eirik\Desktop\word_blacklist\debug\Server.net.dll
+C:\Users\Eirik\Desktop\word_blacklist\Server\obj\Debug\Server.csprojAssemblyReference.cache
+C:\Users\Eirik\Desktop\word_blacklist\Server\obj\Debug\Server.csproj.CoreCompileInputs.cache
+C:\Users\Eirik\Desktop\word_blacklist\Server\obj\Debug\Server.csproj.CopyComplete
+C:\Users\Eirik\Desktop\word_blacklist\Server\obj\Debug\Server.net.dll
+C:\Users\Eirik\Desktop\word_blacklist\source_code\debug\Server.net.dll
+C:\Users\Eirik\Desktop\word_blacklist\source_code\Server\obj\Debug\Server.csprojAssemblyReference.cache
+C:\Users\Eirik\Desktop\word_blacklist\source_code\Server\obj\Debug\Server.csproj.CoreCompileInputs.cache
+C:\Users\Eirik\Desktop\word_blacklist\source_code\Server\obj\Debug\Server.csproj.CopyComplete
+C:\Users\Eirik\Desktop\word_blacklist\source_code\Server\obj\Debug\Server.net.dll
