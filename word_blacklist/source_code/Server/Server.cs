@@ -22,7 +22,8 @@ namespace Server
             foreach(var GetBannedWords in bannedwords)
             {
                 // Check if the message that the player is sending is equal to the banned words.
-                if(message == GetBannedWords)
+                message = message.ToLower();
+                if (message == GetBannedWords)
                 {
                     TriggerClientEvent("PunishPlayer");
                     API.CancelEvent();
