@@ -1,4 +1,6 @@
 ﻿using System;
+using System.IO;
+using System.Reflection;
 using CitizenFX.Core;
 using CitizenFX.Core.Native;
 
@@ -16,7 +18,7 @@ namespace Server
         public void CheckMessage([FromSource] Player source,string author, string color, string message)
         {
             // Add banned words in here!
-            string[] bannedwords = {"fuck", "shit", "damn"};
+            string[] bannedwords = File.ReadAllLines("resources/word_blacklist/bannedwords.txt");
 
             // Loop thru the banned words to compare it with the chat.
             foreach(var GetBannedWords in bannedwords)
@@ -29,6 +31,8 @@ namespace Server
                     API.CancelEvent();
                 }
             }
+
+            foreach(var t in bannedwords) { Debug.WriteLine(t); }
         }
 
         // Kick the player if the chances are equal to 0.
