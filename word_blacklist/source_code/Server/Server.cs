@@ -23,7 +23,7 @@ namespace Server
             {
                 // Check if the message that the player is sending is equal to the banned words.
                 message = message.ToLower();
-                if (message == GetBannedWords)
+                if (message.Contains(GetBannedWords))
                 {
                     TriggerClientEvent("PunishPlayer");
                     API.CancelEvent();
